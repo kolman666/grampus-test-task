@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клубный дом «Южная жемчужина»</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;500;600;700&family=Wix+Madefor+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./images/logo.png">
+            </div>
+            
+            <nav class="main-nav">
+                <ul class="main-nav__list">
+                    <li class="main-nav__item"><a href="#about" class="main-nav__link">О доме</a></li>
+                    <li class="main-nav__item"><a href="#plans" class="main-nav__link">Планировки</a></li>
+                    <li class="main-nav__item"><a href="#territory" class="main-nav__link">Инфраструктура</a></li>
+                    <li class="main-nav__item"><a href="#" class="main-nav__link">Отделка</a></li>
+                    <li class="main-nav__item"><a href="#" class="main-nav__link">Оплата</a></li>
+                    <li class="main-nav__item"><a href="#" class="main-nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <div class="contact-info">
+                <div class="contact-info__phone">8 900 559-17-87</div>
+                <div class="contact-info__text">Связаться со мной</div> <!-- пожалуйста -->
+            </div>
+            
+            <button class="mobile-menu-btn" aria-label="Открыть меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="swiper hero-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="hero__content">
+                        <div class="container">
+                            <div class="hero__inner">
+                                <div class="hero__left">
+                                    <div class="hero__logo-tab">
+                                        <div class="logo__text">Клубный дом <br>«Южная жемчужина»</div>
+                                    </div>
+                                    
+                                    <h1 class="hero__title">
+                                        Комфортное<br> жильё бизнес-<br>класса
+                                    </h1>
+                                    
+                                    <a href="#plans" class="btn btn--brown">Смотреть планировку</a>
+                                </div>
+                                
+                                <div class="hero__right">
+                                    <img src="./images/house_mainpage.png" alt="Клубный дом «Южная жемчужина»" class="hero__image">
+                                    
+                                    <div class="hero__footer">
+                                        <a href="#territory" class="hero__link">
+                                            Смотреть инфраструктуру 
+                                            <svg width="32" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="hero__nav hero__nav--prev">
+            <object type="image/svg+xml" data="./images/Chevron_Left.svg"></object>
+        </div>
+        <div class="hero__nav-right hero__nav--next">
+            <object type="image/svg+xml" data="./images/Chevron_Right.svg"></object>
+        </div>
+        
+        <a href="#" class="fixed-button">Квартиры в наличии</a>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            
+            <div class="about__content">
+                <div class="about__image-wrapper">
+                    <img src="./images/yard.png" alt="Территория дома" class="about__image">
+                </div>
+                
+                <div class="about__info">
+                    <h2 class="section-title">О доме</h2>
+                    <div class="about__location">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 22C16 18 20 14.4183 20 10C20 5.58172 16.4183 2 12 2C7.58172 2 4 5.58172 4 10C4 14.4183 8 18 12 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>г. Курск, ул. Южный переулок, д. 14</p>
+                    </div>
+                    
+                    <p class="about__text">
+                        Это тихое место в центре города. Запроектирован дом одно подъездным, монолитно-кирпичным, 8-ми этажным с просторным лифтом грузоподъемностью 1 тн. На первом этаже расположено коммерческое помещение
+                    </p>
+                    
+                    <p class="about__text">
+                        В доме спроектирован подземный паркинг с расчетом два машиноместа на квартиру, со спускающимся до паркинга лифтом с вашего этажа
+                    </p>
+                    
+                    <p class="about__text">
+                        В доме всего 14 квартир, тем самым создается эффект отсутствия в муравейнике
+                    </p>
+                </div>
+            </div>
+            
+            <div class="specs-container">
+                <div class="swiper specs-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="specs__item">
+                                <div class="specs__corner specs__corner--tl"></div>
+                                <div class="specs__corner specs__corner--tr"></div>
+                                <div class="specs__corner specs__corner--bl"></div>
+                                <div class="specs__corner specs__corner--br"></div>
+                                <div class="specs__content">
+                                    <div class="specs__label">Сроки сдачи</div>
+                                    <div class="specs__value">2 квартал</div>
+                                    <div class="specs__value specs__value--large">2025</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="specs__item">
+                                <div class="specs__corner specs__corner--tl"></div>
+                                <div class="specs__corner specs__corner--tr"></div>
+                                <div class="specs__corner specs__corner--bl"></div>
+                                <div class="specs__corner specs__corner--br"></div>
+                                <div class="specs__content">
+                                    <div class="specs__label">Этажность</div>
+                                    <div class="specs__value specs__value--large">8</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="specs__item">
+                                <div class="specs__corner specs__corner--tl"></div>
+                                <div class="specs__corner specs__corner--tr"></div>
+                                <div class="specs__corner specs__corner--bl"></div>
+                                <div class="specs__corner specs__corner--br"></div>
+                                <div class="specs__content">
+                                    <div class="specs__label">Квартир на этаже</div>
+                                    <div class="specs__value specs__value--large">2</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="specs__item specs__item--full-border">
+                                <div class="specs__corner specs__corner--tl"></div>
+                                <div class="specs__corner specs__corner--tr"></div>
+                                <div class="specs__corner specs__corner--bl"></div>
+                                <div class="specs__corner specs__corner--br"></div>
+                                <div class="specs__content">
+                                    <div class="specs__label">Количество квартир</div>
+                                    <div class="specs__value specs__value--large">14</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="plans" class="plans">
+    <div class="container">
+        <h2 class="section-title">2 типа квартир<br>площадью 130 м<sup>2</sup></h2>
+        
+        <div class="plans__content">
+            <div class="plans__left-column">
+                <div class="plans__options">
+                    <div class="plans__option">
+                        <div class="plans__option-number">01</div>
+                        <div class="plans__option-text">1 тип. Слева от лифта</div>
+                    </div>
+                    
+                    <div class="plans__option">
+                        <div class="plans__option-number">02</div>
+                        <div class="plans__option-text">2 тип. Справа от лифта</div>
+                    </div>
+                </div>
+                
+                <div class="plans__info">
+                    <p class="plans__description">
+                        Функционально квартиры поделены на две зоны со своими санузлами. Имеют выходы на остекленные витражные лоджии
+                    </p>
+                    
+                    <div class="plans__zones">
+                        <div class="plans__zone">
+                            <h4 class="plans__zone-title">Зона активного отдыха</h4>
+                            <div class="plans__zone-size">33 м<sup>2</sup></div>
+                            <div class="plans__zone-description">совмещенная кухня<br>с гостиной</div>
+                        </div>
+                        
+                        <div class="plans__zone">
+                            <h4 class="plans__zone-title">Зона пассивного отдыха</h4>
+                            <div class="plans__zone-size">65 м<sup>2</sup></div>
+                            <div class="plans__zone-description">3 комнаты для отдыха</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="plans__right-column">
+                <div class="plans__arc plans__arc--top">
+                    <object type="image/svg+xml" data="./images/sun.svg"></object>
+                </div>
+                
+                <div class="plans__image-container">
+                    <img src="./images/aparts-plan.png" alt="План квартиры" class="plans__image">
+                </div>
+                
+                <div class="plans__arc plans__arc--bottom">
+                    <object type="image/svg+xml" data="./images/sun-2.svg"></object>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="infrastructure" class="infrastructure">
+    <div class="container">
+        <h2 class="section-title">В квартирах предусмотрено</h2>
+        
+        <div class="features-grid">
+            <div class="feature__item">
+                <div class="feature__corner feature__corner--tl"></div>
+                <div class="feature__corner feature__corner--tr"></div>
+                <div class="feature__corner feature__corner--bl"></div>
+                <div class="feature__corner feature__corner--br"></div>
+                <div class="feature__content">
+                    <h3 class="feature__title">Индивидуальное отопление</h3>
+                    <p class="feature__description">Индивидуальное отопление</p>
+                    <div class="feature__icon">
+                        <object type="image/svg+xml" data="./images/heating.svg"></object>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feature__item">
+                <div class="feature__corner feature__corner--tl"></div>
+                <div class="feature__corner feature__corner--tr"></div>
+                <div class="feature__corner feature__corner--bl"></div>
+                <div class="feature__corner feature__corner--br"></div>
+                <div class="feature__content">
+                    <h3 class="feature__title">Остекление</h3>
+                    <p class="feature__description">Просторные витражные остекления до пола</p>
+                    <div class="feature__icon">
+                        <object type="image/svg+xml" data="./images/window.svg"></object>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feature__item">
+                <div class="feature__corner feature__corner--tl"></div>
+                <div class="feature__corner feature__corner--tr"></div>
+                <div class="feature__corner feature__corner--bl"></div>
+                <div class="feature__corner feature__corner--br"></div>
+                <div class="feature__content">
+                    <h3 class="feature__title">«Спрятанные» коммуникации</h3>
+                    <p class="feature__description">Трубы отопления находятся в полу</p>
+                    <div class="feature__icon">
+                        <object type="image/svg+xml" data="./images/hidden-smth-idk.svg"></object>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="feature__item">
+                <div class="feature__corner feature__corner--tl"></div>
+                <div class="feature__corner feature__corner--tr"></div>
+                <div class="feature__corner feature__corner--bl"></div>
+                <div class="feature__corner feature__corner--br"></div>
+                <div class="feature__content">
+                    <h3 class="feature__title">Радиаторы отопления</h3>
+                    <p class="feature__description">Расположены возле витражных окон в пространстве пола</p>
+                    <div class="feature__icon">
+                        <object type="image/svg+xml" data="./images/radiators.svg"></object>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feature__item">
+                <div class="feature__corner feature__corner--tl"></div>
+                <div class="feature__corner feature__corner--tr"></div>
+                <div class="feature__corner feature__corner--bl"></div>
+                <div class="feature__corner feature__corner--br"></div>
+                <div class="feature__content">
+                    <h3 class="feature__title">Кондиционер</h3>
+                    <p class="feature__description">Запроектирована подготовка под установку</p>
+                    <div class="feature__icon">
+                        <object type="image/svg+xml" data="./images/ac.svg"></object>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feature__item">
+                <div class="feature__corner feature__corner--tl"></div>
+                <div class="feature__corner feature__corner--tr"></div>
+                <div class="feature__corner feature__corner--bl"></div>
+                <div class="feature__corner feature__corner--br"></div>
+                <div class="feature__content">
+                    <h3 class="feature__title">Система пожарного оповещения</h3>
+                    <p class="feature__description">Автоматизированная система. Приходит на пульт консьержу</p>
+                    <div class="feature__icon">
+                        <object type="image/svg+xml" data="./images/fire-alarm.svg"></object>
+                    </div>
+                    </div>
+                </div>
+            
+
+            <div class="feature__item">
+                <div class="feature__corner feature__corner--tl"></div>
+                <div class="feature__corner feature__corner--tr"></div>
+                <div class="feature__corner feature__corner--bl"></div>
+                <div class="feature__corner feature__corner--br"></div>
+                <div class="feature__content">
+                    <h3 class="feature__title">Видео наблюдение</h3>
+                    <p class="feature__description">придомовой территории и мест общего пользования</p>
+                    <div class="feature__icon">
+                        <object type="image/svg+xml" data="./images/cam.svg"></object>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feature__item feature__item--phone">
+                <div class="feature__corner feature__corner--tl"></div>
+                <div class="feature__corner feature__corner--tr"></div>
+                <div class="feature__corner feature__corner--bl"></div>
+                <div class="feature__corner feature__corner--br"></div>
+                <div class="feature__content">
+                    <h3 class="feature__title feature__title--phone">8 964 198-46-73</h3>
+                    <p class="feature__description">Обращайтесь<br>по всем вопросам</p>
+                </div>
+                <div class="feature__overlay"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section id="territory" class="territory">
+    <div class="container">
+        <h2 class="section-title">Что входит в закрытую<br>территорию дома</h2>
+        
+        <div class="territory__content">
+            <div class="territory__item">
+                <div class="territory__image-wrapper">
+                    <div class="territory__image-frame">
+                        <img src="./images/parking.png" alt="Гостевая парковка" class="territory__image">
+                    </div>
+                </div>
+                <div class="territory__info">
+                    <div class="territory__line territory__line--left"></div>
+                    <h3 class="territory__title">Гостевая парковка</h3>
+                    <div class="territory__line territory__line--right"></div>
+                </div>
+            </div>
+            
+            <div class="territory__item territory__item--reverse">
+                <div class="territory__image-wrapper">
+                    <div class="territory__image-frame">
+                        <img src="./images/kids.png" alt="Детская площадка" class="territory__image">
+                    </div>
+                </div>
+                <div class="territory__info">
+                    <div class="territory__line territory__line--left"></div>
+                    <h3 class="territory__title">Детская площадка</h3>
+                    <div class="territory__line territory__line--right"></div>
+                </div>
+            </div>
+            
+            <div class="territory__item">
+                <div class="territory__image-wrapper">
+                    <div class="territory__image-frame">
+                        <img src="./images/parking.png" alt="Спортивная площадка" class="territory__image">
+                    </div>
+                </div>
+                <div class="territory__info">
+                    <div class="territory__line territory__line--left"></div>
+                    <h3 class="territory__title">Спортивная площадка</h3>
+                    <div class="territory__line territory__line--right"></div>
+                </div>
+            </div>
+            
+            <div class="territory__item territory__item--reverse">
+                <div class="territory__image-wrapper">
+                    <div class="territory__image-frame">
+                        <img src="./images/chillzone.png" alt="Зона отдыха для взрослых" class="territory__image">
+                        <div class="territory__badge">1000 м<sup>2</sup></div>
+                    </div>
+                </div>
+                <div class="territory__info">
+                    <div class="territory__line territory__line--left"></div>
+                    <h3 class="territory__title">Зона отдыха для взрослых</h3>
+                    <div class="territory__line territory__line--right"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
